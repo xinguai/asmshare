@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T09:11:45.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ynxOdIM_1Xan7Y7cYr-G" version="18.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-13T09:24:29.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="AYXOU2XTWMKdfXRn3l5m" version="18.0.2" type="github" pages="3">
   <diagram id="nWiH8mXC5Z4KRHZyhjYG" name="网关">
     <mxGraphModel dx="1234" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -290,19 +290,13 @@
           <mxGeometry x="361" y="730" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="9QM4HgoN1U-V9JXsEqK7-18" value="srf桩代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="361" y="684" width="60" height="30" as="geometry" />
+          <mxGeometry x="464" y="732.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9QM4HgoN1U-V9JXsEqK7-20" value="" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff88;shape=mxgraph.archimate3.collaboration;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=1;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="361" y="798" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="9QM4HgoN1U-V9JXsEqK7-21" value="trpc -tar桩代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="364" y="854" width="82" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9QM4HgoN1U-V9JXsEqK7-22" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;dashed=1;startFill=0;dashPattern=1 4;rounded=0;strokeColor=#000000;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="349" y="643" as="sourcePoint" />
-            <mxPoint x="509" y="643" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="467" y="800.5" width="82" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9QM4HgoN1U-V9JXsEqK7-26" value="pipe line" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="214" y="778" width="55" height="18" as="geometry" />
@@ -320,7 +314,7 @@
           <mxGeometry x="195" y="908" width="55" height="18" as="geometry" />
         </mxCell>
         <mxCell id="9QM4HgoN1U-V9JXsEqK7-34" value="trpc 桩代码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="357" y="974" width="69" height="18" as="geometry" />
+          <mxGeometry x="455" y="924.5" width="69" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
