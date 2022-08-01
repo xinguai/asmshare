@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T09:10:02.888Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7pYsWL8g6LZGoemzrLfa" version="20.2.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-08-01T09:40:19.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="sfXDMG8a03NINbN6Mf3B" version="20.2.1" type="github" pages="5">
   <diagram id="nWiH8mXC5Z4KRHZyhjYG" name="网关">
     <mxGraphModel dx="1234" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -476,7 +476,7 @@
           <mxGeometry x="230" y="80" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="I_46w6aH8cg096JBCiQV-46" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Local_Network_Gateways.svg;" vertex="1" parent="1">
-          <mxGeometry x="455" y="267" width="68" height="68" as="geometry" />
+          <mxGeometry x="455" y="268" width="68" height="68" as="geometry" />
         </mxCell>
         <mxCell id="I_46w6aH8cg096JBCiQV-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=classic;endFill=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="I_46w6aH8cg096JBCiQV-24" target="I_46w6aH8cg096JBCiQV-46">
           <mxGeometry relative="1" as="geometry" />
@@ -574,15 +574,15 @@
           <mxGeometry x="631.5" y="38" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I_46w6aH8cg096JBCiQV-99" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="78" y="263" width="250" height="90" as="geometry" />
+          <mxGeometry x="78" y="263" width="250" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="I_46w6aH8cg096JBCiQV-11" value="环境1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I_46w6aH8cg096JBCiQV-99">
+        <mxCell id="I_46w6aH8cg096JBCiQV-11" value="feat测试环境1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I_46w6aH8cg096JBCiQV-99">
           <mxGeometry width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I_46w6aH8cg096JBCiQV-12" value="环境2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I_46w6aH8cg096JBCiQV-99">
+        <mxCell id="I_46w6aH8cg096JBCiQV-12" value="feat测试环境2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I_46w6aH8cg096JBCiQV-99">
           <mxGeometry y="30" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I_46w6aH8cg096JBCiQV-13" value="环境3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I_46w6aH8cg096JBCiQV-99">
+        <mxCell id="I_46w6aH8cg096JBCiQV-13" value="feat测试环境3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I_46w6aH8cg096JBCiQV-99">
           <mxGeometry y="60" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I_46w6aH8cg096JBCiQV-14" value="UTA环境" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I_46w6aH8cg096JBCiQV-99">
@@ -594,6 +594,9 @@
         <mxCell id="I_46w6aH8cg096JBCiQV-76" value="测试环境" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I_46w6aH8cg096JBCiQV-99">
           <mxGeometry x="125" y="60" width="125" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="I_46w6aH8cg096JBCiQV-108" value="k歌devops环境列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="I_46w6aH8cg096JBCiQV-99">
+          <mxGeometry x="125" y="90" width="125" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="I_46w6aH8cg096JBCiQV-102" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=oval;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="I_46w6aH8cg096JBCiQV-11" target="I_46w6aH8cg096JBCiQV-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -603,8 +606,11 @@
         <mxCell id="I_46w6aH8cg096JBCiQV-105" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="I_46w6aH8cg096JBCiQV-15" target="I_46w6aH8cg096JBCiQV-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="I_46w6aH8cg096JBCiQV-106" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.287;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=diamond;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="I_46w6aH8cg096JBCiQV-15" target="I_46w6aH8cg096JBCiQV-24">
+        <mxCell id="I_46w6aH8cg096JBCiQV-106" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.287;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=diamondThin;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="I_46w6aH8cg096JBCiQV-15" target="I_46w6aH8cg096JBCiQV-24">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I_46w6aH8cg096JBCiQV-107" value="音乐devops环境列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="78" y="353" width="125" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
