@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T11:06:13.114Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nqcMcXxNeMFfMFu-4IJO" version="20.5.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-02-07T11:23:35.804Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YVne1pkSUbGP-25aXyCF" version="20.5.3" type="github" pages="9">
   <diagram id="nWiH8mXC5Z4KRHZyhjYG" name="网关">
     <mxGraphModel dx="1234" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
             <mxPoint x="198" y="664" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PieOw4Xy5nio8Q285p1y-12" value="服务" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="PieOw4Xy5nio8Q285p1y-12" value="服务" style="ellipse;whiteSpace=wrap;html=1;fillColor=#AD7B4C;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="327" y="627" width="83" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Dj1_8sRifcqUMS8ulMMA-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#3333FF;dashed=1;strokeWidth=2;" edge="1" parent="1" source="Dj1_8sRifcqUMS8ulMMA-2" target="PieOw4Xy5nio8Q285p1y-12">
@@ -42,7 +42,7 @@
             <mxPoint x="31" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dj1_8sRifcqUMS8ulMMA-2" value="网关" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="Dj1_8sRifcqUMS8ulMMA-2" value="API网关" style="ellipse;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="113" y="629" width="83" height="74" as="geometry" />
         </mxCell>
         <mxCell id="Dj1_8sRifcqUMS8ulMMA-11" value="API网关" style="ellipse;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=#9673a6;" vertex="1" parent="1">
