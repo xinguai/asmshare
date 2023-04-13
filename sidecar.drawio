@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T02:47:32.723Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Tsmocbn9WkYQWleYPtlw" version="21.1.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-04-13T03:34:29.254Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="t1j0ZiCpgbZHZvk6v22N" version="21.1.4" type="github" pages="11">
   <diagram id="nWiH8mXC5Z4KRHZyhjYG" name="网关">
     <mxGraphModel dx="1242" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1393,12 +1393,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YAQzlGqxLmlSwGNl7KXr" name="mock">
-    <mxGraphModel dx="1242" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FxTFZbLFZa7NYe03i81O-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="79" y="1727" width="171" height="269" as="geometry" />
+        <mxCell id="FxTFZbLFZa7NYe03i81O-72" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="756" y="1711" width="199" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="FxTFZbLFZa7NYe03i81O-71" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="264.5" y="1707" width="451" height="319" as="geometry" />
+        </mxCell>
+        <mxCell id="FxTFZbLFZa7NYe03i81O-68" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="79" y="1707" width="171" height="320" as="geometry" />
         </mxCell>
         <mxCell id="HJDC2OQW8ctcH8iI99BI-41" value="" style="line;strokeWidth=2;html=1;strokeColor=#00FF00;" vertex="1" parent="1">
           <mxGeometry x="120" y="1366" width="624" height="10" as="geometry" />
@@ -1814,8 +1820,11 @@
         <mxCell id="FxTFZbLFZa7NYe03i81O-62" value="json" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="801" y="1835" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FxTFZbLFZa7NYe03i81O-69" value="IDL文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="2018" width="60" height="30" as="geometry" />
+        <mxCell id="FxTFZbLFZa7NYe03i81O-69" value="IDL文件 解析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1987" width="79" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FxTFZbLFZa7NYe03i81O-73" value="IDL文件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1984" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
