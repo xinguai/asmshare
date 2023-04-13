@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T06:36:33.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="8KkVBlQMNdRB5cPvAMcM" version="21.1.4" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-04-13T11:44:43.142Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="aXW79BYMte_cUbE8vgBo" version="21.1.4" type="github" pages="11">
   <diagram id="nWiH8mXC5Z4KRHZyhjYG" name="网关">
     <mxGraphModel dx="1242" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1393,7 +1393,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YAQzlGqxLmlSwGNl7KXr" name="mock">
-    <mxGraphModel dx="1780" dy="884" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1953" dy="995" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1841,7 +1841,7 @@
         <mxCell id="FxTFZbLFZa7NYe03i81O-91" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="FxTFZbLFZa7NYe03i81O-82" target="FxTFZbLFZa7NYe03i81O-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FxTFZbLFZa7NYe03i81O-98" value="（2）流量 规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FxTFZbLFZa7NYe03i81O-91">
+        <mxCell id="FxTFZbLFZa7NYe03i81O-98" value="（2）流量规则注入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FxTFZbLFZa7NYe03i81O-91">
           <mxGeometry x="-0.1015" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1851,7 +1851,7 @@
             <mxPoint x="437" y="2339" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FxTFZbLFZa7NYe03i81O-105" value="（1）mock 规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FxTFZbLFZa7NYe03i81O-92">
+        <mxCell id="FxTFZbLFZa7NYe03i81O-105" value="（1）mock 规则注入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FxTFZbLFZa7NYe03i81O-92">
           <mxGeometry x="-0.3827" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1872,10 +1872,10 @@
         <mxCell id="FxTFZbLFZa7NYe03i81O-83" value="sidecar" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="182" y="2339" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FxTFZbLFZa7NYe03i81O-85" value="通过sidecar控制面&lt;br&gt;注入流量规则&lt;br&gt;什么情况下&lt;br&gt;调度多少流量达到mock" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="2248" width="121" height="54" as="geometry" />
+        <mxCell id="FxTFZbLFZa7NYe03i81O-85" value="通过sidecar控制面&lt;br&gt;注入流量规则&lt;br&gt;描述：什么情况下&lt;br&gt;调度多少流量达到mock系统" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2248" width="181" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="FxTFZbLFZa7NYe03i81O-88" value="&lt;br&gt;什么情况下&lt;br&gt;返回什么样的数据&lt;br&gt;执行什么样的动作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FxTFZbLFZa7NYe03i81O-88" value="&lt;br&gt;描述：什么情况下&lt;br&gt;返回什么样的数据&lt;br&gt;执行什么样的动作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="422" y="2128" width="121" height="54" as="geometry" />
         </mxCell>
         <mxCell id="FxTFZbLFZa7NYe03i81O-95" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FxTFZbLFZa7NYe03i81O-90" target="FxTFZbLFZa7NYe03i81O-83">
