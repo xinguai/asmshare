@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T05:33:58.627Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="D9T5WUVo4GRCXmhWoIIm" version="21.5.1" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-07-06T05:35:44.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Kd6Bo9ROmy1xFhSHYTU3" version="21.5.1" type="github" pages="12">
   <diagram id="nWiH8mXC5Z4KRHZyhjYG" name="网关">
     <mxGraphModel dx="1242" dy="796" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2360,8 +2360,20 @@
         <mxCell id="NBrnPUDqvGohqI_NFn1T-45" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="197" y="769" width="116" height="183" as="geometry" />
         </mxCell>
+        <mxCell id="NBrnPUDqvGohqI_NFn1T-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classicThin;endFill=0;" edge="1" parent="1" source="NBrnPUDqvGohqI_NFn1T-47" target="NBrnPUDqvGohqI_NFn1T-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NBrnPUDqvGohqI_NFn1T-47" value="Sidecar" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="209.5" y="778" width="85" height="30" as="geometry" />
+          <mxGeometry x="209.5" y="783" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NBrnPUDqvGohqI_NFn1T-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=classicThin;endFill=0;" edge="1" parent="1" source="NBrnPUDqvGohqI_NFn1T-52" target="NBrnPUDqvGohqI_NFn1T-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NBrnPUDqvGohqI_NFn1T-52" value="Service A" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="209.5" y="845.5" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NBrnPUDqvGohqI_NFn1T-53" value="Envoy Proxy" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="209.5" y="907" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
