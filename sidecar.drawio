@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T01:27:59.073Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="SuU2pwIQlhlNlOuZ-uam" version="24.0.0" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2024-05-24T01:28:28.144Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="x4DrjeLpJEllkVYnN_0_" version="24.0.0" type="github" pages="18">
   <diagram id="nWiH8mXC5Z4KRHZyhjYG" name="网关">
     <mxGraphModel dx="2199" dy="1765" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4896,6 +4896,14 @@
         <mxCell id="IcuMJmowYEiUbf9Hxc_A-34" value="各种地址&lt;br&gt;各种rpc call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="672" y="905" width="107" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Vi_fIdcIb2glsFBU4QMT" name="第 18 页">
+    <mxGraphModel dx="2378" dy="1640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
