@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-10-21T02:15:21.290Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="wY8rZjmsFsv_W1327fp7" version="24.4.9" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2024-10-21T03:08:24.056Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="znk1S56l3S3epJSs_JlR" version="24.4.9" type="github" pages="17">
   <diagram id="nWiH8mXC5Z4KRHZyhjYG" name="网关">
     <mxGraphModel dx="2199" dy="1765" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5198,7 +5198,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VTvesTRDzCGFb-xEj2wm-14" value="预发布&lt;div&gt;网关&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#67AB9F;" vertex="1" parent="1">
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-14" value="预发布&lt;div&gt;网关&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#67AB9F;strokeColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="217.5" y="1699.25" width="44" height="44" as="geometry" />
         </mxCell>
         <mxCell id="VTvesTRDzCGFb-xEj2wm-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#00CC66;curved=1;" edge="1" parent="1" source="VTvesTRDzCGFb-xEj2wm-15" target="VTvesTRDzCGFb-xEj2wm-18">
