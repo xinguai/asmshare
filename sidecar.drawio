@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T05:27:20.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3cHIJv1ba0ksLYKPWO1J" version="24.4.7" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2024-10-21T01:40:30.489Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" etag="z0w5QZIZ-hGKLbwqdw_M" version="24.4.9" type="github" pages="17">
   <diagram id="nWiH8mXC5Z4KRHZyhjYG" name="网关">
     <mxGraphModel dx="2199" dy="1765" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4921,10 +4921,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uaffkEXA0LeTtAnnSA43" name="olympus">
-    <mxGraphModel dx="1189" dy="820" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2069" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="153" y="1540" width="178" height="219" as="geometry" />
+        </mxCell>
         <mxCell id="IcuMJmowYEiUbf9Hxc_A-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;" parent="1" vertex="1">
           <mxGeometry x="67" y="146" width="721" height="580" as="geometry" />
         </mxCell>
@@ -5133,6 +5136,40 @@
         </mxCell>
         <mxCell id="IcuMJmowYEiUbf9Hxc_A-34" value="各种地址&lt;br&gt;各种rpc call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="672" y="905" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="217" y="1368" width="608" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VTvesTRDzCGFb-xEj2wm-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="254" y="1679" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-3" value="服务" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="546" y="1648.75" width="61" height="60.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-4" value="外部网关" style="ellipse;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="186.5" y="1644" width="106" height="99.25" as="geometry" />
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#3333FF;strokeWidth=1;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VTvesTRDzCGFb-xEj2wm-8" target="VTvesTRDzCGFb-xEj2wm-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-8" value="APP" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-83" y="1663.38" width="61" height="60.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-11" value="前端手动选择&lt;div&gt;预发布环境验证&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-102" y="1730" width="122" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-13" value="API网关层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="192" y="1811" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-14" value="预发布&lt;div&gt;网关&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#67AB9F;" vertex="1" parent="1">
+          <mxGeometry x="217.5" y="1699.25" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="VTvesTRDzCGFb-xEj2wm-15" value="内部网关" style="ellipse;whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="203" y="1558" width="71" height="71" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
